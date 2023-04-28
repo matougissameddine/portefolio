@@ -1,7 +1,3 @@
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -16,7 +12,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -84,7 +85,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -158,12 +160,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active > a i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -292,7 +298,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -415,10 +421,9 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #149ddd;
 }
-
 
 .resume .resume-title {
   font-size: 26px;
@@ -504,7 +509,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 
@@ -625,7 +631,6 @@ section {
   font-size: 14px;
 }
 
-
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
@@ -651,7 +656,8 @@ section {
   margin: 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #c3e8fa;
   font-size: 26px;
 }
@@ -692,7 +698,8 @@ section {
   left: calc(50% - 20px);
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.testimonials .owl-nav,
+.testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -784,7 +791,9 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
@@ -850,7 +859,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -937,7 +947,6 @@ section {
   }
 }
 
-
 .col-lg-fifth {
   display: flex;
   justify-content: center;
@@ -950,7 +959,7 @@ section {
   padding: 0;
 }
 
-.portfolio-sorting  {
+.portfolio-sorting {
   margin-bottom: 60px;
 }
 
@@ -968,8 +977,8 @@ section {
 
 .portfolio-sorting .active,
 .portfolio-sorting .btn:active {
-  background-color: #ffd500; 
-  border-color: #ffd500; 
+  background-color: #ffd500;
+  border-color: #ffd500;
   color: #fff;
   box-shadow: none;
 }
@@ -986,7 +995,7 @@ section {
   left: 100%;
   right: 100%;
   height: 2px;
-  content: '';
+  content: "";
   opacity: 0;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -1028,7 +1037,8 @@ section {
   width: 100%;
   left: 0;
   -webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
-  transition: opacity 0.45s,-webkit-transform 0.45s, -moz-transform 0.45s, -o-transform 0.45s, transform 0.45s;
+  transition: opacity 0.45s, -webkit-transform 0.45s, -moz-transform 0.45s,
+    -o-transform 0.45s, transform 0.45s;
 }
 
 .portfolio-link h3 {
@@ -1044,7 +1054,6 @@ section {
   -webkit-transform: translate3d(50%, 0%, 0);
   -o-transform: translate3d(50%, 0%, 0);
   -ms-transform: translate3d(50%, 0%, 0);
-
 }
 
 .portfolio-link p {
@@ -1081,9 +1090,8 @@ section {
   opacity: 1;
 }
 
-
 #PortfolioItemSlider {
- margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .portfolio-date-cat-cl li {
@@ -1105,8 +1113,6 @@ section {
   font-weight: 700;
   text-transform: uppercase;
 }
-
-
 
 /*--------------------------------------------------------------
 # Footer
